@@ -48,7 +48,7 @@ router.post("/", async (req, res) => {
 });
 
 // update a tag's name by its `id` value
-router.put("/:tag_id", async (req, res) => {
+router.put("/:id", async (req, res) => {
   const tagData = await Tag.update(
     {
       tag_name: req.body.tag_name,
@@ -63,6 +63,4 @@ router.put("/:tag_id", async (req, res) => {
 });
 
 // delete on tag by its `id` value
-router.delete("/:id", (req, res) => {});
-
-module.exports = router;
+router.delete('/:id')
