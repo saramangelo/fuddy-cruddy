@@ -18,7 +18,7 @@ Product.belongsToMany(Tag, {
     model: ProductTag,
     unique: false
   },
-  as: 'location_travellers'
+  // as: 'alias name needed?'
 });
 // Tags belongToMany Products (through ProductTag)
 Tag.belongsToMany(Product, {
