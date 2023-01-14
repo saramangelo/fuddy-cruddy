@@ -2,7 +2,7 @@
 ![Github license](https://img.shields.io/static/v1?label=License&message=MIT&color=brightgreen)
 
 ## Description 
-
+fuddy-cruddy is an application supplying back-end programming for an e-commerce site. It utilizes a working Express.js API and configures it to use Sequelize to interact with a MySQL database.
 
 ## Screenshot
 ![]()
