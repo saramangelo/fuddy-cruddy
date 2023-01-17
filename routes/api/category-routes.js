@@ -49,7 +49,7 @@ router.get('/', async (req, res) => {
     });
 
   // update a category by its `id` value
-  // need to use ProductTag through table
+
   router.put('/:id', async (req, res) => {
     try {
     const categoriesData = await Category.update(
@@ -58,7 +58,7 @@ router.get('/', async (req, res) => {
       },
       {
         where: {
-          category_id: req.params.id,
+          id: req.params.id,
         },
       }
     );
@@ -67,6 +67,16 @@ router.get('/', async (req, res) => {
       res.status(500).json(err);
     }
   });
+  // router.put('/:id', (req, res) => {
+  //   Category.update(
+  //     req.body, {
+  //       where: {
+  //         id: req.params.id
+  //       }
+  //     }
+  //   ).then((category)=> res.status(200).json(category)).catch((err)=> res.status(400).json(err))
+  // })
+
 
   // delete a category by its `id` value
   router.delete('/:id', async (req, res) => {
