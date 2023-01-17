@@ -50,6 +50,7 @@ router.get('/', async (req, res) => {
 
   // update a category by its `id` value
   router.put('/:id', async (req, res) => {
+    try {
     const categoriesData = await Category.update(
       {
         category_name: req.body.category_name,
@@ -60,8 +61,10 @@ router.get('/', async (req, res) => {
         },
       }
     );
-  
-    return res.json(categoriesData);
+  res.status(200).json(categoriesData);
+    } catch (err) {
+      res.status(500).json(err);
+    }
   });
 
   // delete a category by its `id` value
