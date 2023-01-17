@@ -56,7 +56,7 @@ router.put("/:id", async (req, res) => {
     },
     {
       where: {
-        tag_id: req.params.tag_id,
+        tag_id: req.params.id,
       },
     }
   );
