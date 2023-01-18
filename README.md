@@ -5,7 +5,7 @@
 fuddy-cruddy is an application supplying back-end programming for an e-commerce site. It utilizes a working Express.js API and configures it to use Sequelize to interact with a MySQL database.
 
 ## Link to Video Demo
-[https://drive.google.com/file/d/1C3X3qZXXAI3vdEgzlwuFC6vV439VpB_N/view](https://drive.google.com/file/d/1C3X3qZXXAI3vdEgzlwuFC6vV439VpB_N/view)
+[https://drive.google.com/file/d/1cGxQfq6Yc3yNZOCAQwJyMkO2nj5HlXHa/view](https://drive.google.com/file/d/1cGxQfq6Yc3yNZOCAQwJyMkO2nj5HlXHa/view)
   
 ## Table of Contents (Optional)
     
