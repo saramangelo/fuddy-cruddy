@@ -4,8 +4,8 @@
 ## Description 
 fuddy-cruddy is an application supplying back-end programming for an e-commerce site. It utilizes a working Express.js API and configures it to use Sequelize to interact with a MySQL database.
 
-## Screenshot
-![]()
+## Link to Video Demo
+[https://drive.google.com/file/d/1C3X3qZXXAI3vdEgzlwuFC6vV439VpB_N/view](https://drive.google.com/file/d/1C3X3qZXXAI3vdEgzlwuFC6vV439VpB_N/view)
   
 ## Table of Contents (Optional)
     
@@ -19,17 +19,20 @@ fuddy-cruddy is an application supplying back-end programming for an e-commerce 
 - [Questions](#questions)
   
 ## Installation
-
+MySQL Workbench - drop database if it exists, create database (see db folder). 
+Node.js - in command line, type npm i, npm run seed, npm run start.
   
   
 ## Usage
-
+Postman, Insomnia, or other API development tool that helps build, test, modify APIs.
    
   
 ## Credits
+MySQL Workbench
+Node.js
+Insomnia
 
-  
-  
+
 ## License
 MIT License
 
@@ -56,16 +59,16 @@ SOFTWARE.
 
 
 ## Features
-
+N/A
 
 
 ## How to Contribute
-  
+N/A
 (https://www.contributor-covenant.org/)
   
 
 ## Tests
-
+N/A
   
 
 ## Questions
