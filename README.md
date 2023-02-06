@@ -7,16 +7,20 @@ fuddy-cruddy is an application supplying back-end programming for an e-commerce 
 ## Link to Video Demo
 [https://drive.google.com/file/d/1cGxQfq6Yc3yNZOCAQwJyMkO2nj5HlXHa/view](https://drive.google.com/file/d/1cGxQfq6Yc3yNZOCAQwJyMkO2nj5HlXHa/view)
   
-## Table of Contents (Optional)
+## Table of Contents
     
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-- [Features](#features)
-- [How to Contribute](#how-to-contribute)
-- [Tests](#tests)
-- [Questions](#questions)
+- [fuddy-cruddy](#fuddy-cruddy)
+  - [Description](#description)
+  - [Link to Video Demo](#link-to-video-demo)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Credits](#credits)
+  - [License](#license)
+  - [Features](#features)
+  - [How to Contribute](#how-to-contribute)
+  - [Tests](#tests)
+  - [Questions](#questions)
   
 ## Installation
 MySQL Workbench - drop database if it exists, create database (see db folder). 
